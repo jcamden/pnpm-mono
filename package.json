@@ -1,13 +1,15 @@
 {
   "private": true,
   "scripts": {
+    "lint": "turbo run lint",
     "web:dev": "pnpm --filter 'web' dev"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "next": "13.0.2"
+    "next": "13.0.2",
+    "turbo": "^1.6.3"
   },
   "comments": {
     "next": "Must be installed at root to silence missing next/babel errors in workspaces"

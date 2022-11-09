@@ -2,7 +2,7 @@ packages:
   - apps/docs
   - apps/web
   - packages/database
-  - packages/eslint-config-custom
+  - packages/eslint-config-djinndex
   - packages/tailwind-config
   - packages/tsconfig
   - packages/ui
