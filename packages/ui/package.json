@@ -13,6 +13,7 @@
     "react": "18.2.0"
   },
   "devDependencies": {
+    "eslint-config-djinndex": "workspace:*",
     "@types/react": "18.0.25"
   }
 }

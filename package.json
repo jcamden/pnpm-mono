@@ -8,6 +8,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eslint-config-djinndex": "workspace:*",
     "next": "13.0.2",
     "turbo": "^1.6.3"
   },
