@@ -1,4 +1,5 @@
 module.exports = {
   root: true,
-  extends: ["djinndex"],
+  extends: ['djinndex'],
+  plugins: ['tailwindcss'],
 };

@@ -4,17 +4,23 @@
   "description": "",
   "main": "src/index.ts",
   "scripts": {
+    "lint": "eslint \"src/**/*.{js,ts}*\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "i": "^0.3.7",
     "react": "18.2.0"
   },
   "devDependencies": {
+    "@storybook/react": "^6.5.13",
+    "@storybook/testing-library": "^0.0.13",
     "@types/react": "18.0.25",
+    "@typescript-eslint/eslint-plugin": "^5.42.1",
     "eslint-config-djinndex": "workspace:*",
+    "eslint-plugin-tailwindcss": "^3.6.2",
     "tailwind-config": "workspace:*",
     "tailwindcss": "^3.1.5",
     "tsconfig": "workspace:*"

@@ -13,6 +13,7 @@
   "devDependencies": {
     "eslint-config-djinndex": "workspace:*",
     "next": "13.0.2",
+    "prettier-plugin-tailwindcss": "^0.1.13",
     "turbo": "^1.6.3"
   },
   "comments": {
