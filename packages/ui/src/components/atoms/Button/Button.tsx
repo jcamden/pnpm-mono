@@ -45,7 +45,7 @@ export const Button = ({
       )}
       style={{
         backgroundColor,
-        // border: '10px solid black'
+        border: '10px solid black',
       }}
       {...props}
     >
