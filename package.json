@@ -3,6 +3,7 @@
   "scripts": {
     "build": "turbo run build",
     "build-storybook": "turbo run build-storybook",
+    "chromatic": "turbo run chromatic",
     "lint": "turbo run lint",
     "storybook": "turbo run storybook",
     "web:dev": "pnpm --filter 'web' dev"
