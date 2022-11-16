@@ -10,6 +10,9 @@
       "dependsOn": ["^build-storybook"],
       "outputs": ["storybook-static/**"]
     },
+    "chromatic": {
+      "outputs": ["apps/docs/storybook-static/**"]
+    },
     "db:migrate:deploy": {
       "outputs": []
     },
